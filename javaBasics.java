@@ -158,16 +158,54 @@
 //     }
 // }
 
-import java.util.*;
-public class javaBasics {
-    public static void main(String args[]){
-         int x, y, z;
-     x = y = z = 2;
-     x += y;
-     y -= z;
-     z /= (x + y);
-    System.out.println(x + " " + y + " " + z);
-    }
-}
+// import java.util.*;
+// public class javaBasics {
+//     public static void main(String args[]){
+//          int x, y, z;
+//      x = y = z = 2;
+//      x += y;
+//      y -= z;
+//      z /= (x + y);
+//     System.out.println(x + " " + y + " " + z);
+//     }
+// }
        
+//   import java.util.*;
+//   public class javaBasics{
+//     public static void main(String args[]){
+//         String a = "*";
+//         for(int i = 5; i <= 0; i--){
+//             for(int j = 0 ; j < i; j++){
+//                 System.out.print(a);
+//             }
+//             System.out.print(a);
+//         }
+          
+//         }
+//     }
+
+//   import java.util.*;
+//   public class javaBasics{
+//     public static void main(String args[]){
+//         String a = "*";
+//         for(int i = 1 ; i <= 5 ; i++ ){
+//             System.out.println(a);
+//             a = a + "*";
+//         }
+          
+//         }
+//     }  this is a solution
   
+  import java.util.*;
+  public class javaBasics{
+    public static void main(String args[]){
+        String a = "*";
+        for(int c = 0; c <= 5 ; c++ ){
+            for(int r = 5; r > 0 ; r--){
+                System.out.println(a);
+                a += "*";
+            }
+        }
+          
+        }
+    }  
