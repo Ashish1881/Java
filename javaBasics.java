@@ -341,17 +341,51 @@
 //     }
 // }
 
+// import java.util.*;
+
+// public class javaBasics{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = 0;
+
+//         while( num <= 10 ){
+//             System.out.println(num);
+//             num++;
+//         }
+//     }
+// }
+  
+
+        // Print sum of first n natural numbers
+
+// import java.util.*;
+// public class javaBasics{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter the num");
+        
+//         int n = sc.nextInt();
+        
+//         int sum = 0;
+//         int i = 1;
+
+//         while(i <= n){
+//            sum += i;
+//            i++; 
+//         }
+//         System.out.print("sum is :" + sum);
+//     }
+// }
+
 import java.util.*;
 
 public class javaBasics{
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-
-        int num = 0;
-
-        while( num <= 10 ){
-            System.out.println(num);
-            num++;
+        
+        for(int i = 1 ; i <= 4; i++){
+            System.out.println("****");
         }
     }
 }
