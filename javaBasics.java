@@ -379,13 +379,153 @@
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
 
-public class javaBasics{
-    public static void main(String args[]){
+// public class javaBasics{
+//     public static void main(String args[]){
         
-        for(int i = 1 ; i <= 4; i++){
-            System.out.println("****");
+//         for(int i = 1 ; i <= 4; i++){
+//             System.out.println("****");
+//         }
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaBasics{
+//     public static void main(String args[]){
+//         int n = 10899;
+//         while(n > 0){
+//             int lastDigit = n % 10;
+            
+//             System.out.print(lastDigit + "");
+//             n = n / 10;
+//         }
+//     }
+// }
+
+// import java.util.*;
+// public class javaBasics{
+//     public static void main(String args[]){
+//         int n = 10899;
+//         System.out.println(n);
+//         int rev = 0;
+
+//         while(n > 0 ){
+//             int lastDigit = n % 10;
+//             rev = (rev*10) + lastDigit ;
+//             n = n/10;
+//         }
+        
+//         System.out.println(rev);
+//     }
+// }
+
+// import java.util.*;
+// public class javaBasics{
+//     public static void main(String args[]){
+//        Scanner sc = new Scanner(System.in);
+       
+//        int n = sc.nextInt();
+//         if(n == 2){
+//             System.out.print("n is prime");
+//         }else{
+//             Boolean isPrime = true;
+//        for(int i = 2 ; i<= n -1;){
+//         if(n % i == 0){
+//             isPrime = false;
+//         }
+//        }
+//        if (isPrime == true){
+//             System.out.print("n is prime");
+
+//        }else{
+//             System.out.print("n is not prime");
+//        }
+//         }
+       
+//     }
+// }
+
+// public class Solution {
+// public static void main(String[] args){
+// for(int i=0; i<7; i++) {
+//     System.out.println("Hello");
+//     i+=2;
+//     }
+// }
+// }
+
+
+// import java.util.Scanner;
+// public class Solution {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// int num; // To hold number
+// int fact = 1; // To hold factorial
+// System.out.print("Enter any positive integer: ");
+// num = sc.nextInt();
+// for(int i=1; i<=num; i++) {
+// fact *= i;
+// }
+// System.out.println("Factorial: "+ fact);
+// }
+// }
+
+// import java.util.Scanner;
+// public class Solution {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// int number;
+// int choice;
+// int evenSum = 0;
+// int oddSum = 0;
+// do {
+// System.out.print("Enter the number ");
+// number = sc.nextInt();
+// if( number % 2 == 0) {
+// evenSum += number;
+// } else {
+// oddSum += number;
+// }
+// System.out.print("Do you want to continue? Press 1 for yes or 0 for
+// no");
+// choice = sc.nextInt();
+// } while(choice==1);
+// System.out.println("Sum of even numbers: " + evenSum);
+// System.out.println("Sum of odd numbers: " + oddSum);
+// }
+// }
+
+// import java.util.*;
+// class MultiplicationTable {
+// public static void printMultiplicationTable(int number){
+// Scanner sc = new Scanner(System.in);
+// System.out.print("Enter number:");
+// int n = sc.nextInt();
+// for(int i=1; i<=10; i++) {
+// System.out.println(n + " * " + i + " = " + n*i);
+// }
+// }
+// public static void main(String s[]) {
+// printMultiplicationTable(5);
+// }
+// }
+
+
+import java.util.*;
+public class PrintStarPattern{
+    public static void main(String args[]){
+        int n = 4;
+
+        char ch = 'A';
+
+        for(int i = 1 ; i <= n ; i++){
+            for(int j = 1 ; j <= i ; j++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println();
         }
     }
 }
