@@ -513,19 +513,61 @@
 // }
 
 
-import java.util.*;
-public class PrintStarPattern{
+//  2. Print Inverted Star Pattern.mp4
+// public class javaBasics{
+//     public static void main(String args[]){
+//         for(int i = 4; i >= 1; i--){
+//             for(int j = 1 ; j <= i ; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+
+// // 3. Print Half-Pyramid Pattern
+// public class javaBasics{
+//     public static void main(String args[]){
+//         int n = 4 ;
+//         for(int i = 1; i <= n ; i++){
+//             for(int j = 1 ; j <= i ; j++){
+//                 System.out.print(j);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+// 4. Print Character Pattern
+// import java.util.*;
+// public class PrintStarPattern{
+//     public static void main(String args[]){
+//         int n = 4;
+
+//         char ch = 'A';
+
+//         for(int i = 1 ; i <= n ; i++){
+//             for(int j = 1 ; j <= i ; j++){
+//                 System.out.print(ch);
+//                 ch++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+import java.util.* ;
+public class javaBasics {
+
+    public static void prints(){
+        System.out.print("hellow Ashish");
+    }
+
     public static void main(String args[]){
-        int n = 4;
-
-        char ch = 'A';
-
-        for(int i = 1 ; i <= n ; i++){
-            for(int j = 1 ; j <= i ; j++){
-                System.out.print(ch);
-                ch++;
-            }
-            System.out.println();
-        }
+            prints();
     }
 }
