@@ -601,16 +601,16 @@ public class javaBasics{
         return sum;
     }
 
+        public static int factorial(int n){
+            int f = 1;
+            for(int i = 1; i <= n ; i++){
+                f = f * i;
+            }
+            return f;
+        }
+
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter value of a : ");
-        int a = sc.nextInt();
-        System.out.print("Enter value of a : ");
-         int b = sc.nextInt();
-
-         int sum = muliplay(a, b);
-
-         System.out.print(sum);
-       
+        int t = factorial(10);
+       System.out.print(t);
     }
 }
