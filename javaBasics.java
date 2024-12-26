@@ -575,18 +575,18 @@
 import java.util.*;
 public class javaBasics{
 
-    public static void  plus(int a , int b){
-     
-    
-     
+    public static int  plus(int a , int b){
+          
      int sum = a + b;
-     System.out.print(sum);
+     return sum;
+     
     }
 
     public static void main(String args[]){
          Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        plus(a,b);
+        int sum = plus(a,b); // this sum and function sum is deffrent 
+        System.out.print(sum);
     }
 }
