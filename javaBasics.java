@@ -560,14 +560,33 @@
 //     }
 // }
 
-import java.util.* ;
-public class javaBasics {
+// import java.util.* ;
+// public class javaBasics {
 
-    public static void prints(){
-        System.out.print("hellow Ashish");
+//     public static void prints(){
+//         System.out.print("hellow Ashish");
+//     }
+
+//     public static void main(String args[]){
+//             prints();
+//     }
+// }
+
+import java.util.*;
+public class javaBasics{
+
+    public static void  plus(int a , int b){
+     
+    
+     
+     int sum = a + b;
+     System.out.print(sum);
     }
 
     public static void main(String args[]){
-            prints();
+         Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        plus(a,b);
     }
 }
