@@ -572,21 +572,45 @@
 //     }
 // }
 
+// import java.util.*;
+// public class javaBasics{
+
+//     public static int  plus(int a , int b){
+          
+//      int sum = a + b;
+//      return sum;
+     
+//     }
+
+//     public static void main(String args[]){
+//          Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int sum = plus(a,b); // this sum and function sum is deffrent 
+//         System.out.print(sum);
+//     }
+// }
+
+
 import java.util.*;
+
 public class javaBasics{
 
-    public static int  plus(int a , int b){
-          
-     int sum = a + b;
-     return sum;
-     
+    public static int muliplay(int a , int b){
+        int sum = a * b;
+        return sum;
     }
 
     public static void main(String args[]){
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter value of a : ");
         int a = sc.nextInt();
-        int b = sc.nextInt();
-        int sum = plus(a,b); // this sum and function sum is deffrent 
-        System.out.print(sum);
+        System.out.print("Enter value of a : ");
+         int b = sc.nextInt();
+
+         int sum = muliplay(a, b);
+
+         System.out.print(sum);
+       
     }
 }
