@@ -619,7 +619,18 @@ public class javaBasics{
             return binCoeff;
         }
 
+        // function to calculet sum  of 2 numbers
+
+        public static int sum(int a, int b){
+            return a + b;
+        }
+        // function to calculet sum of 3 numbers
+        public static int sum(int a, int b , int c){
+            return a + b + c;
+        }
+
     public static void main(String args[]){
-        System.out.print(binCoeff(5 , 2));
+        System.out.println(sum(5, 5));
+        System.out.print(sum(5, 5, 5));
     }
 }
