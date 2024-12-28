@@ -592,32 +592,32 @@
 // }
 
 
-import java.util.*;
+// import java.util.*;
 
-public class javaBasics{
+// public class javaBasics{
 
-    public static int muliplay(int a , int b){
-        int sum = a * b;
-        return sum;
-    }
+//     public static int muliplay(int a , int b){
+//         int sum = a * b;
+//         return sum;
+//     }
 
-        public static int factorial(int n){
-            int f = 1;
-            for(int i = 1; i <= n ; i++){
-                f = f * i;
-            }
-            return f;
-        }
+//         public static int factorial(int n){
+//             int f = 1;
+//             for(int i = 1; i <= n ; i++){
+//                 f = f * i;
+//             }
+//             return f;
+//         }
 
-        public static int binCoeff(int n , int r){
-            int fact_n = factorial(n);
-            int fact_r = factorial(r);
-            int fact_nmr = factorial(n-r);
+//         public static int binCoeff(int n , int r){
+//             int fact_n = factorial(n);
+//             int fact_r = factorial(r);
+//             int fact_nmr = factorial(n-r);
             
-            int binCoeff  = fact_n / (fact_r * fact_nmr);
+//             int binCoeff  = fact_n / (fact_r * fact_nmr);
 
-            return binCoeff;
-        }
+//             return binCoeff;
+//         }
 
         // function to calculet sum  of 2 numbers
 
@@ -651,45 +651,159 @@ public class javaBasics{
         //      return isPrime;
         // }
 
-        public static Boolean isPrime(int n ){
-            if( n == 2){
-                return true;
-            }
+//         public static Boolean isPrime(int n ){
+//             if( n == 2){
+//                 return true;
+//             }
 
-            for(int i = 2 ; i <= Math.sqrt(n); i++){
-                if (n % 2 == 0){
-                    return false;
-                }
-            }
-            return true;
-        }
+//             for(int i = 2 ; i <= Math.sqrt(n); i++){
+//                 if (n % 2 == 0){
+//                     return false;
+//                 }
+//             }
+//             return true;
+//         }
 
-        public static void primesInRange(int n){
-            for (int i = 2 ; i <= n ; i++){
-                if (isPrime(i)){
-                    System.out.print(i+" ");
-                }
-                // System.out.print();
-            }
-        }
-        public static void binToDec(int binNum){
-            int myNum = binNum;
-            int pow = 0;
-            int decNum = 0;
+//         public static void primesInRange(int n){
+//             for (int i = 2 ; i <= n ; i++){
+//                 if (isPrime(i)){
+//                     System.out.print(i+" ");
+//                 }
+//                 // System.out.print();
+//             }
+//         }
+//         public static void binToDec(int binNum){
+//             int myNum = binNum;
+//             int pow = 0;
+//             int decNum = 0;
 
-            while(binNum > 0){
-                int lastDigit = binNum % 10;
-                decNum = decNum +(lastDigit * (int)Math.pow(2 , pow));
+//             while(binNum > 0){
+//                 int lastDigit = binNum % 10;
+//                 decNum = decNum +(lastDigit * (int)Math.pow(2 , pow));
 
-                pow++;
-                binNum = binNum / 10;
+//                 pow++;
+//                 binNum = binNum / 10;
                  
-            }
-            System.out.print(" Decimal of " + myNum +" = " + decNum);
-        }
+//             }
+//             System.out.print(" Decimal of " + myNum +" = " + decNum);
+//         }
+//         public static void decToBin(int n){
+//             int myNum = n;
+//             int pow = 0;
+//             int binNum  = 0;
 
-    public static void main(String args[]){
-       binToDec(01);
+//             while(n > 0){
+//                 int rem = n % 2;
+//                 binNum = binNum + (rem * (int)Math.pow(10, pow));
+//                 pow++;
+//                 n = n / 2; 
+//             }
+//             System.out.println("binary form of " + myNum + "= " + binNum);
+//         }
+
+//     public static void main(String args[]){
+//        decToBin(4);
        
-    }
+//     }
+// }
+
+
+// import java.util.Scanner;
+// public class javaBasics {
+
+// public static void main(String[] args) {
+
+// Scanner sc = new Scanner(System.in);
+
+// System.out.print("Input the first number: ");
+// double x = sc.nextDouble();
+// System.out.print("Input the second number: ");
+// double y = sc.nextDouble();
+// System.out.print("Input the third number: ");
+// double z = sc.nextDouble();
+
+// System.out.print("The average value is " + average(x, y, z)+"\n" );
+// }
+// public static double average(double x, double y, double z) {
+// return (x + y + z) / 3;
+// }
+// }
+
+
+// import java.util.*;
+// public class javaBasics{
+//         public static int isEven(int number){
+//                 if(num % 2 == 0){
+//                         return true;
+//                 }else{
+//                         return false;
+//                 }
+//         }
+//         public static void main(String args[]){
+//                 Scanner sc = new Scanner(System.in);
+
+//                 int num ;
+//                 System.out.print("enter the number Integer");
+//                 num = sc.nextInt();
+
+//                 if(isEven(num)){
+//                         System.out.print(" Number is even");
+//                 }else{
+//                         System.out.print("Number is odd");
+//                 }
+                 
+                
+//         }
+// }
+
+// import java.util.*;
+// public class javaBasics {
+// public static void main(String[] args) {
+// Scanner sc = new Scanner(System.in);
+// int num;
+// System.out.print("Enter an integer: ");
+// num = sc.nextInt();
+// if(isEven(num)) {
+// System.out.println("Number is even");
+// } else {
+// System.out.println("Number is odd");
+// }
+// }
+// public static boolean isEven(int number) {
+// if(number % 2 == 0) {
+// return true;
+// }
+// else {
+// return false;
+// }
+// }
+// }
+
+import java.util.Scanner;
+public class Solution {
+public static void main(String args[]) {
+System.out.println("Please Enter a number : ");
+Scanner sc = new Scanner(System.in);
+int palindrome = sc.nextInt();
+if(isPalindrome(palindrome)) {
+System.out.println("Number : " + palindrome + " is a palindrome");
+} else {
+System.out.println("Number : " + palindrome + " is not a palindrome");
+}
+}
+public static boolean isPalindrome(int number) {
+int palindrome = number; // copied number into variable
+int reverse = 0;
+while (palindrome != 0) {
+int remainder = palindrome % 10;
+reverse = reverse * 10 + remainder;
+palindrome = palindrome / 10;
+}
+// if original and the reverse of number is equal means
+// number is palindrome in Java
+if (number == reverse) {
+return true;
+}
+return false;
+}
 }
