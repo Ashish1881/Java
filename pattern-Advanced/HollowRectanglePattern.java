@@ -151,7 +151,32 @@ public class HollowRectanglePattern{
             System.out.println();
         }
     }
-        
+        public static void diamond(int n){
+            for(int i=1; i<=n; i++){    
+                // space
+                for(int j=1; j<=(n-i); j++){
+                    System.out.print(" ");
+                }
+
+                // stars
+                for(int j=1; j<=(2*i)-1; j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+           for(int i=n; i>=1; i--){    
+                // space
+                for(int j=1; j<=(n-i); j++){
+                    System.out.print(" ");
+                }
+
+                // stars
+                for(int j=1; j<=(2*i)-1; j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+            } 
+        }
         
     public static void main(String args[]){
         // pattern(4,4);
@@ -161,7 +186,8 @@ public class HollowRectanglePattern{
         // zero_one_pattern(5);
         // butterfly(5);
         // solid_Rhombus(5);
-        hollow_rhombus(7);
+        // hollow_rhombus(4);
+        diamond(7`);
 
     }
 }
