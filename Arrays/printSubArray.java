@@ -1,6 +1,6 @@
 public class printSubArray{
     public static void subArray(int numbers[]){
-        int tp = 0;
+        int tp = 0
         for(int i=0; i<numbers.length; i++){
             int start = i;
             for(int j=i; j<numbers.length; j++){
