@@ -32,3 +32,4 @@ public class printSubArray{
         subArray(numbers);
     }
 }
+// this is max of array
