@@ -8,6 +8,7 @@ public class reverseArray{
         numbers[first] = temp;
 
         first++ ;
+        
         last-- ;
     }
    }

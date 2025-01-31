@@ -217,16 +217,16 @@ public class HollowRectanglePattern{
         
     public static void main(String args[]){
         // pattern(4,4);
-       // inverted_rotated_half_pyaramid(5);
+    //    inverted_rotated_half_pyaramid(5);
         // numprint(5);
-        //   number(5);
+          number(5);
         // zero_one_pattern(5);
         // butterfly(5);
         // solid_Rhombus(5);
         // hollow_rhombus(4);
         // diamond(7)
         // numberPattern(5);
-        palindromicPatternWithNumbers(10);
+        // palindromicPatternWithNumbers(10);
 
     }
 }
